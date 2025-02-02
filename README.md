@@ -7,4 +7,11 @@ Socioeconomic exposure model was developed by Nath et al. (2015) utilizing popul
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 1. Seismic Exposure Flow Diagram.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 1. Seismic Exposure Flow Diagram.
+
+Street Intersection Density: 
+
+The amount of bends/turns on the road is directly correlated with the number of intersection points shown by SID, which is street intersection points for the city. High-income areas have highways with fewer bends and street intersection sites, whereas lower-income areas have more uneven roadways. The greater the number of street intersection points implies higher risk and vice versa.
+
+![Uploading Screenshot 2025-02-02 at 12.45.51 PM.png…]()
+
