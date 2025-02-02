@@ -36,7 +36,17 @@ From the LULC categorization of the Landsat satellite dataset for the years 1993
 5. Tree Density:
 
 Low-income neighborhoods lack green spaces due to irregularly shaped and densely populated housing, whereas well developed areas contain gardens and extensive green spaces. The normalized difference vegetation index (NDVI) is calculated using Equation 1. Near-infrared (NIR) light is reflected by healthy green vegetation, while red light (RED) is absorbed. As shown in Figure 6(a), the NDVI calculation uses the Landsat 8 bands, with values ranging from -1 to +1, magnified view shown in Figure 6(b). Values greater than 0.2 are classified as green areas and the density of points is classified and mapped to the grid (Figure 11(e)).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"NDVI= "  (NIR-RED)/(NIR+RED)
+
+<img width="766" alt="Screenshot 2025-02-02 at 12 55 56 PM" src="https://github.com/user-attachments/assets/3e60e7d6-2df5-4267-8c03-53da7d1d6b31" />
+
+6. Important Structures:
+   
+Public spaces including hospitals, restaurants, movie theatres, and tourist attractions represent a substantial risk of earthquake victims causing casualty or getting injured. As seen in Figure 7(a), the quick OSM plugin is able to identify these locations using Google Maps. In Nagpur city, areas like Ramdespeth (Figure 7(b)) and Dhantoli are known for large number of hospitals and good medical facilities. All of the points are combined and categorized as indicated in Figure 11(f).
+
+<img width="753" alt="Screenshot 2025-02-02 at 12 56 08 PM" src="https://github.com/user-attachments/assets/7a6e1608-c26d-4f9c-ac8e-ef133b0e9076" />
+
 
 
 
