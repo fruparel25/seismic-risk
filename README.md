@@ -85,4 +85,8 @@ Higher AHP rankings (shown in Figure. 11 (g)) indicate older structures, higher 
 
 <img width="833" alt="Screenshot 2025-02-02 at 1 05 07 PM" src="https://github.com/user-attachments/assets/829f8177-7078-4587-b76b-bef57d6ca09e" />
 
-<img width="586" alt="Screenshot 2025-02-02 at 1 05 27 PM" src="https://github.com/user-attachments/assets/e143514c-516a-44a7-8ce3-7739afa459e1" />
+<img width="867" alt="Screenshot 2025-02-02 at 1 07 05 PM" src="https://github.com/user-attachments/assets/d2212370-570b-4cd2-96a3-fda1756bbb54" />
+
+<img width="839" alt="Screenshot 2025-02-02 at 1 07 19 PM" src="https://github.com/user-attachments/assets/8e68eca0-d8b9-4629-8f66-ce24d8f2288a" />
+
+
