@@ -4,6 +4,7 @@ On the basis of social and economic level zones, construction and maintenance of
 
 
 
+![Picture 1](https://github.com/user-attachments/assets/940e5919-7b17-47f1-ba14-5f1ecb6aa92b)
 
 
 
