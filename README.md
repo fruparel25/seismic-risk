@@ -47,6 +47,42 @@ Public spaces including hospitals, restaurants, movie theatres, and tourist attr
 
 <img width="753" alt="Screenshot 2025-02-02 at 12 56 08 PM" src="https://github.com/user-attachments/assets/7a6e1608-c26d-4f9c-ac8e-ef133b0e9076" />
 
+Extraction of Feature Importance:
+
+For predictive modelling, feature importance rates the relevance of each individual feature. To assess feature importance, machine learning models like decision trees, random forests, and neural networks as well as statistical techniques like the analytical hierarchy process are used. Six columns (features) and 24616 rows (100m grids) make up our dataset.
+
+1. Random Forest (RF) classifier: 
+
+In Random Forest, the "forest" is a group of decision trees, each of which contributes to the final prediction. The classification is done by combining the predictions of all of the decision trees in the forest, each of which is trained on a random subset of the training data.
+
+The set of six features (Street intersection density, Built-up density, Population Density, Building age, Tree density and important structure) serves as the input to the RF classifier. In order to evaluate each combination described rather than choosing samples at random, Grid-SearchCV is used for hyper-parameter (user-defined parameters that affect training and behavior of the model) training. Table 1 contains hyper-parameter information.
+
+<img width="867" alt="Screenshot 2025-02-02 at 1 03 09 PM" src="https://github.com/user-attachments/assets/d18add30-c0d6-4259-b92c-df229cfe1bae" />
 
 
+Gini impurity is employed to measure feature importance to categorize, assess, and track feature reduction with 74% testing accuracy. Figure 9(a) shows comparison of the predicted and actual labels for seismic risk zones. Feature importance through RF classifier is shown in Table 3 and are processed further to predict exposure for seismic risk (Figure 11(h)).
 
+2. Neural Networks (NN):
+  
+These networks are the computational models that excel at learning and recognizing intricate patterns and relationships in data. They are trained using a method known as backpropagation and are made up of interconnected artificial neurons arranged in layers. They use training data to develop and enhance their accuracy. Gradient adjustments and automated learning rate adjustments improve training.
+
+Here, the convergence speed is increased by using Nesterov accelerated gradients. The model in Table 2 has been tested with an accuracy of 72.95% after 250 training epochs.A square matrix representing rows with actual/true class and columns with predicted is shown in Figure 9(b). To create the exposure maps for seismic risk (Figure 11(i)), SHAP (Shapley Additive exPlanations) values are used to categorize importance as stated in Table 3.
+
+<img width="851" alt="Screenshot 2025-02-02 at 1 03 29 PM" src="https://github.com/user-attachments/assets/5e04779f-0dec-4493-ac74-1d843fe376b6" />
+
+3. Analytical Hierarchy Process (AHP):
+  
+By following AHP, which was introduced by Saaty (1980), feature importance is determined. This is a multi-criteria analysis method that assigns appropriate weights to the levels that have been built. This method enables the user to compare two criteria at once by providing a score value ranging from 1 to 9 with their appropriate priority from equal to extreme importance. Hence, there will be nC2 comparisons made where n is the number of parameters. Hence, 6C2 i.e., 15 comparisons made are shown in Figure 10. 
+
+<img width="825" alt="Screenshot 2025-02-02 at 1 04 23 PM" src="https://github.com/user-attachments/assets/76557ba2-e0e0-4e72-a965-6d0f642a66af" />
+
+
+Comparison of feature Importance through RF, NN and AHP
+
+In maps (Figure 11 (h) and Figure 11 (i)), 1 indicates no risk, 2 as very low risk, 3 as low risk, 4 as moderate risk and 5 as high risk. NN states that no-risk, very low-risk, and moderate- risk zones are classified with good results (above 52 %) as compared to low-risk, and high-risk (low as 1.25%) zones. RF classifier concludes that no-risk, very low-risk, and moderate-risk zones were identified with results (above 62%). 
+Higher AHP rankings (shown in Figure. 11 (g)) indicate older structures, higher population densities, higher street intersection densities, lower tree densities, and more important structures.
+
+
+<img width="833" alt="Screenshot 2025-02-02 at 1 05 07 PM" src="https://github.com/user-attachments/assets/829f8177-7078-4587-b76b-bef57d6ca09e" />
+
+<img width="586" alt="Screenshot 2025-02-02 at 1 05 27 PM" src="https://github.com/user-attachments/assets/e143514c-516a-44a7-8ce3-7739afa459e1" />
